@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increadible India</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flickity.css">
+    <script src="JavaScript/flickity.js" async></script>
+    <script src="JavaScript/nav.js" async></script>
+
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="beaches.html">BEACHES</a>
+            </li>
+            <li>
+                <a href="himalayas.html">HIMALAYAS</a>
+            </li>
+            <li>
+                <a href="spiritual.html">SPIRITUAL</a>
+            </li>
+            <li>
+                <a href="allLocations.html">MUCH MORE</a>
+            </li>
+            <li>
+                <a href="about_us.html">ABOUT OUR PROJECT</a>
+            </li>
+        </ul>
+        <div id="closeBtn" onclick='closeBtnClick()'>
+            X
+        </div>
+    </div>
+
+    <section id="header">
+        <div class="navbar fixedHeader">
+            <div class="navbarLeft">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="navbarRight">
+                <div class="menuBtn" onclick="menuBtnClick()">||||</div>
+            </div>
+        </div>
+    </section>
+    <full onclick='closeBtnClick()'>
+        <div class="container" >
+            <div class="headerBg">
+                <img src="images/Incredible-India.jpg" alt="">
+            </div>
+            <div class="headerContent">
+                <h1>Incredible !ndia. Why Is It Called So?</h1>
+                <p>
+                    One of the oldest civilisations in the world, India is a mosaic of multicultural experiences.
+                    With a
+                    rich heritage and myriad attractions, the country is among the most popular tourist destinations
+                    in
+                    the world. It covers an area of 32, 87,263 sq. km, extending from the snow-covered Himalayan
+                    heights
+                    to the tropical rain forests of the south. As the 7th largest country in the world, India stands
+                    apart from the rest of Asia, marked off as it is by mountains and the sea, which give the
+                    country a
+                    distinct geographical entity.
+                </p>
+                <a onclick="location.href='https://www.incredibleindia.org/content/incredibleindia/en/discover-india/about-india.html'"> <div class="button readMrore">Read More</div></a>
+            </div>
+        </div>
+    
+   
+        <section class="popularInIndia">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Popular In India</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row para">
+                    <p>India is a home to the finest architectural heritage, serene ghats, spectacular landscapes and
+                        largest tiger reserve</p>
+                </div>
+            </div>
+            <div class="beaches">
+                <div class="heading">
+                    <h2>Beaches</h2>
+                </div>
+                <div class="lightBox">
+                    <p>India's shorelines are endowed with a glorious beauty that is reflected in its
+                        undulating golden beaches that make for an ideal vantage point to watch the sun dipping into the
+                        sea.
+                        Beaches stroke...
+                    </p>
+                   <a href="beaches.html"> <div class="button readMrore rightAlign">Read More</div></a>
+                </div>
+            </div>
+
+            <div class="himalayas">
+                <div class="heading">
+                    <h2>Himalayas</h2>
+                </div>
+                <div class="lightBox">
+                    <p>The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian
+                        subcontinent from the Tibetan Plateau. The range has many of Earth's highest peaks, including...
+                    </p>
+                   <a href="himalayas.html"> <div class="button readMrore rightAlign">Read More</div></a>
+                </div>
+            </div>
+
+            <div class="spiritual">
+                <div class="heading">
+                    <h2>Spiritual India</h2>
+                </div>
+                <div class="lightBox rp2">
+                    <p>Spiritual India, rich in holy places, traditions and rituals, offers much for those seeking
+                        knowledge
+                        and awareness. Visit these popular sacred destinations of various faiths to maximize your
+                        spiritual
+                        experience in India.
+                    </p>
+                   <a href="spiritual.html"> <div class="button readMrore rightAlign">Read More</div></a>
+                </div>
+            </div>
+
+            <div class="all" style="position: relative; bottom:30px;">
+                <div class="heading">
+                    <h2>Much More</h2>
+                </div>
+                <div class="lightBox rp3">
+                    <p>The Travel and Tourism Competitiveness Report 2019 ranked India 34th out of 140 countries
+                        overall.
+                        India improved its ranking by 6 places over the 2017 report which was the greatest improvement
+                        among the top 25% of countries ranked.
+                    </p>
+                   <a href="allLocations.html"> <div class="button readMrore rightAlign">Read More</div></a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="topDestinations">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Must Visit</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row para">
+                    <p>From historical cities to natural splendours, come see the best of India</p>
+                </div>
+                <div class="main-carousel"
+                    data-flickity='{ "cellAlign": "left", "contain": true, "freeScroll": true, "autoPlay":true}'>
+                    <div class="carousel-cell">
+                        <img src="images/amritsar.jpg" alt="Amritsar">
+                        <h6>Amritsar<h6>
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/darjeeling.webp" alt="Darjeeling">
+                        <h6>Darjeeling<h6>
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/jaisalmerjpg.jpg" alt="Jaisalmer">
+                        <h6>Jaisalmer<h6>
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="images/kanyakumari.jpg" alt="Kanyakumari">
+                        <h6>kanyakumari<h6>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="topDestinations rp1" style="position: relative; bottom: 70px; overflow: hidden; height:25em;">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Celebrate With Us</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row para">
+                    <p>As you travel through the country, be a part of our festivals and feasts</p>
+                </div>
+                <div class="main-carousel"
+                    data-flickity='{ "cellAlign": "left", "contain": true, "freeScroll": true, "autoPlay":true}'>
+                    <div class="carousel-cell">
+                        <img src="images/durgaPuja.jpg" alt="drgaPuja">
+                        <h6>Durga Puja<h6>
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/diwali.jpg" alt="image">
+                        <h6>Diwali<h6>
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/christmas.jpg" alt="image">
+                        <h6>Christmas<h6>
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="images/id.jpg" alt="image">
+                        <h6>Id<h6>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <br>
+    	<br>
+    	<br>
+    </full>
+
+    
+   
+
+    <footer>
+        <div class="footer-body">
+            <div>
+                <h3>Incredible India</h3>
+            </div>
+
+            <p>Thanks to visit our page!<br>
+                <b>Community- <a onclick="location.href='https://github.com/8-bit-souvik/'"
+                        style="background-color: rgb(32, 32, 32); color:beige; padding:5px; border-radius:5px;">Github</a></b>
+
+            </p>
+            <ul>
+                <li><a href="about_us.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Term & Condition</a></li>
+                <li><a href="#">Privacy policy</a></li>
+            </ul>
+        </div>
+         <br>
+        <div class="footer-copyright">
+            (c) copyright-none &nbsp &nbsp &nbsp licence-MIT
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

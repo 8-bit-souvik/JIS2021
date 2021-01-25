@@ -1,0 +1,493 @@
+* {
+    transition: .5s;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.navbar {
+    width: 100%;
+    height: 8vh;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.navbarLeft {
+    display: inline-block;
+    width: 30%;
+}
+
+.navbarLeft img {
+    margin: 10px;
+}
+
+.navbarRight {
+    width: 5%;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+}
+
+#menu {
+    background-color: #3562CCE0;
+    position: fixed;
+    top:-5px;
+    right: -100%;
+    height: 100vh;
+    text-decoration: none;
+    color: #fff;
+    width: 30%;
+    z-index: 3;
+}
+
+#menu  ul{
+    margin-top:30px;
+    position:relative;
+    right:40px;
+}
+
+
+#closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+}
+
+.menuBtn {
+    cursor: pointer;
+    width:55px;
+    height:35px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom:2px;
+    background-color: rgba(248, 221, 186, 0.829);
+    position: absolute;
+    right:10px;
+    line-height: 30px;
+}
+
+.menuBtn:hover {
+    color: #ffffff;
+    background-color: rgb(102, 168, 255);
+}
+
+
+#menu li:hover {
+    background-color: whitesmoke;
+    color: rgb(17, 137, 235); 
+}
+
+#menu li:hover >  a{
+       color:blue;
+       text-decoration:none;
+   }
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 0;
+   border-bottom: white solid 1px;
+   padding-left:20px;
+}
+
+p {
+    margin: 10px;
+    margin-top: 50px;
+    line-height: 20px;
+}
+
+#header {
+    margin-bottom: 10vh;
+   
+    
+}
+
+.headerBg {
+    display: inline-block;
+    padding: 10px;
+    max-width: 45%;
+    margin: 10px;
+}
+
+.card img {
+     width:18em; height:10em; 
+    }
+
+.card:hover> a img {
+     filter:contrast(150%); 
+    }
+
+
+.headerBg img {
+    width: 100%;
+    vertical-align: baseline;
+}
+
+.headerContent {
+    display: inline-block;
+    max-width: 45%;
+    margin: 20px;
+}
+
+.readMrore {
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    position:relative;
+    bottom:5px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #fff;
+    background: #4c86fa;
+    text-transform: uppercase;
+    padding: 0 15px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    transition: all .5s ease;
+}
+
+.button.sm {
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0 30px;
+    border-radius: 20px;
+}
+
+.button:focus,
+.button:hover {
+    color: #fff;
+    background: #000;
+}
+
+.heading {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.para {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+.beaches {
+    background-image: url(../images/baches.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.himalayas {
+    background-image: url(../images/himalays.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.spiritual {
+    background-image: url(../images/spiritual3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.all {
+    background-image: url(../images/allLocations.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.aboutus {
+    background-image: url(../images/AEC.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+
+.lightBox {
+    border-radius: 10px;
+    background-color: #000;
+    opacity: 0.8;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    width: 50%;
+    height: 50vh;
+}
+
+.lightBox p {
+    opacity: 1;
+    color: #fff;
+    padding: 10%;
+}
+
+.beaches .heading {
+    background-color: #ebebeb;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.himalayas .heading {
+    background-color: #ebebeb;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.row {
+    overflow: hidden;
+}
+
+
+.spiritual .heading {
+    background-color: #ebebeb;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.all .heading {
+    background-color: #ebebeb;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.rightAlign {
+    position: absolute;
+    right: 20px;
+}
+
+
+.popularInIndia {
+    background-color: #ebebeb;
+}
+
+.topDestinations {
+    height: 100vh;
+}
+
+.topDestinations h6 {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.detailsHeader {
+    position: absolute;
+    top: 50vh;
+    left: 20vh;
+    font-size: large;
+    color: #fff;
+}
+
+.destinationName {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.fixedHeader {
+    position: fixed;
+    top: 0px
+}
+
+.beachDetails img {
+    overflow: hidden;
+}
+
+.person {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.person img {
+    margin:0 5px;
+}
+
+.subhodip:hover{
+    filter: brightness(60%);
+    filter: contrast(60%);
+}
+
+.souvik{
+    border-top:black solid 5px;
+}
+.souvik:hover{
+    filter:brightness(60%);
+    filter: contrast(60%);
+}
+
+footer{
+    color:#fff;
+    background: #333;
+    position:relative;
+    font-size:80%;
+  }
+  
+  .footer-copyright{
+    height:26px;
+    width:cover;
+    background:#111;
+    padding:5px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+  }
+  
+  .footer-body{
+    padding:20px;
+  }
+  
+  .footer-body > div:first-child{
+    font-size:150%
+  }
+  
+  .footer-body ul {
+    list-style-type: none;
+    margin:0px;
+    padding:10px;
+    text-align:center;
+    display:flex;
+  }
+  
+  .footer-body li > a {
+    background-color: rgb(41, 41, 41);
+    padding:10px;
+    color:white;
+    text-decoration:none;
+    margin-bottom:7px;
+  }
+  
+  .footer-body li > a:hover{
+    background-color: rgb(255, 254, 254);
+    color:black;
+  }
+  
+footer li {
+    border:none;
+}
+
+  @media only screen and (max-width: 440px) {
+
+    footer ul { display:flex;
+    flex-direction: column;     
+}
+
+  }
+@media only screen and (max-width:430px){
+          
+       .rp2{
+             position:relative; bottom:500px;
+       }
+
+       .rp3{
+             height: 320px;
+       }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar {
+        width: 100%;
+        height: 8vh;
+        background-color: #fff;
+    }
+
+    .headerBg {
+        max-width: 100%;
+    }
+
+    .headerContent {
+        max-width: 100%;
+    }
+
+    .para {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .lightBox {
+        left: 100px;
+        width: 70%;
+    }
+
+    .detailsHeader {
+        top: 60vh;
+        left: 10vh;
+    }
+
+}
+
+
+@media only screen and (max-width: 415px){
+    footer ul li a  {
+      display:flex;
+      flex-direction:column;
+    }
+  }
+
+  @media only screen and (max-width:590px){
+    #menu { 
+        width:50%;
+    }
+}
+
+@media only screen and (max-width:560px){
+    .rp1{
+        position:relative;
+        top:20px;
+    }
+}
+@media only screen and (max-width:1000px){
+    
+    .info{
+           width:100%;
+    }
+}
+
+@media only screen and (max-width:570px){
+    
+    .info{
+           width:3000%;
+    }
+
+    .person{
+        display:flex;
+        flex-direction: column;
+    }
+    .subhodip{
+        padding-bottom: 15px;
+    }
+
+}

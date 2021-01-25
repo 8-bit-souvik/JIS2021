@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Destiantions</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JavaScript/nav.js" async></script>
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="beaches.html">BEACHES</a>
+            </li>
+            <li>
+                <a href="himalayas.html">HIMALAYAS</a>
+            </li>
+            <li>
+                <a href="spiritual.html">SPIRITUAL</a>
+            </li>
+            <li>
+                <a href="allLocations.html">MUCH MORE</a>
+            </li>
+            <li>
+                <a href="about_us.html">ABOUT OUR PROJECT</a>
+            </li>
+        </ul>
+        <div id="closeBtn" onclick='closeBtnClick()'>
+            X
+        </div>
+    </div>
+    <div class="navbar fixedHeader">
+        <div class="navbarLeft">
+            <img src="images/logo.svg" alt="">
+        </div>
+        <div class="navbarRight">
+            <div class="menuBtn" onclick="menuBtnClick()">||||</div>
+        </div>
+    </div>
+
+<br><br>
+
+    <div class="container">
+        <h2 class="heading" >
+           Explore more with us...
+        </h2>
+        <div class="row">
+          
+                <div class="card">
+             <a href='https://en.wikipedia.org/wiki/darjeeling'>  <img class="card-img-top" src="images/Darjeeling.jpg" alt="Darjeeling"></a> 
+                <div class="card-body">
+                    <div class="card-title">
+                        <h5>
+                            Darjeeling, West Bengal
+                        </h5>
+                    </div>
+                </div>
+             </div>
+           
+            <div class="card">
+                <a href='https://en.wikipedia.org/wiki/puri'>  <img class="card-img-top" src="images/puri.jpeg" alt="puri"></a>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Puri, Odisha
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href='https://en.wikipedia.org/wiki/shimla'>  <img class="card-img-top" src="images/shimla.jpeg" alt="Shimla"></a>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Shimla, Himachal Pradesh
+                    </h5>
+                </div>
+            </div>
+            <div class="card">
+                <a href='https://en.wikipedia.org/wiki/status_of_unity'>  <img class="card-img-top" src="images/statue_of_unity.png" alt="Stue of Unity"></a>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Statue Of Unity
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href='https://en.wikipedia.org/wiki/sundarban'> <img class="card-img-top" src="images/sundarban.jpg" alt="Sundarban"></a>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        The Sunderbans
+                    </h5>
+                </div>
+            </div>
+            <div class="card">
+                <a href='https://en.wikipedia.org/wiki/kedarnath'>  <img class="card-img-top" src="images/kedarnath.jpg" alt="Kedarnath"></a>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Kedarnarth, Uttarakhand
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href='https://en.wikipedia.org/wiki/goa'>  <img class="card-img-top" src="images/goa.jpg" alt="Goa"></a>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Goa, India
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href='https://en.wikipedia.org/wiki/ajanta'>  <img class="card-img-top" src="images/ajanta.jpg" alt="Ajanta"> </a>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Ajanta And Ellora Caves
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href='https://en.wikipedia.org/wiki/vizag'>  <img class="card-img-top" src="images/Vishakhapattanam.jpg" alt="Vizag"> </a>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Vishakahapattanam, Andhra Pradesh
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="showMore">
+        <div class="row">
+            <div class="button" onclick="location.href='https://en.wikipedia.org/wiki/List_of_beaches' ">Show More
+            </div>
+        </div>
+    </div>
+
+     <footer>
+        <div class="footer-body">
+          <div><h3>Incredible India</h3></div>
+         
+            <p>Thanks to visit our page!<br>
+                <b>Community- <a  onclick="location.href='https://github.com/8-bit-souvik/'" style="background-color: rgb(32, 32, 32); color:beige; padding:5px; border-radius:5px;">Github</a></b>
+
+            </p>
+            <ul>
+              <li><a href="about_us.html">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Term & Condition</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+        
+        <div class="footer-copyright">
+         (c) copyright-none  &nbsp &nbsp &nbsp    licence-MIT
+        </div>
+        
+      </footer>
+</body>
+
+<style>
+    img {
+        max-width: 100%;
+    }
+
+    .card {
+        margin: 2%;
+        width: 29%;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .card {
+            width: 100%;
+        }
+    }
+    
+</style>
+
+</html>

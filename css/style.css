@@ -70,6 +70,7 @@
     position: absolute;
     right:10px;
     line-height: 30px;
+    transform: rotate(90deg);
 }
 
 .menuBtn:hover {
